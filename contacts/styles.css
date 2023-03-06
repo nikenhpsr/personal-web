@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+:root {
+  --primary-color: #617143;
+  --secondary-color: #ede9d5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+header {
+  width: 100%;
+  min-height: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0px 10px 2.5px;
+  margin: 5px 0px 10px 2.5px;
+}
+
+.navbar nav ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navbar nav ul li {
+  list-style: none;
+  font-family: "Just Another Hand";
+  font-weight: 10%;
+  margin-right: 25px;
+  font-size: 32px;
+}
+
+.navbar nav ul li a:link {
+  text-decoration: none;
+}
+
+.font-logo {
+  font-family: "Just Another Hand";
+  font-size: 40px;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Just Another Hand", cursive;
+  font-weight: lighter;
+  display: flex;
+  justify-content: flex-end;
+  padding: 50px 20px 0 0;
+  margin: 50px 20px 0 0;
+  font-size: 6em;
+}
+
+.p-container {
+  padding: 20px 20px 40px 280px;
+  margin: 20px 20px 40px 280px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.p-container p {
+  font-family: "Lato", sans-serif;
+  text-align: justify;
+}
+
+/*
+.button {
+    margin-top: 25px;
+    padding-top: 25px ;
+    display: flex;
+    justify-content: center;
+}
+
+.more {
+    font-family: 'Just Another Hand', cursive;
+    border-radius: 30px;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    outline: none;
+    border: none;
+    padding: 5px 5px;
+    font-size: 1.5em;
+    box-shadow: 0px 0px 20px var(--primary-color);
+}
+*/
+
+footer {
+  font-family: "Just Another Hand", cursive;
+  margin: 35px 0px 0px 0px;
+  padding: 35px 0px 0px 0px;
+  font-size: 1.2em;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  min-height: 50px;
+}
